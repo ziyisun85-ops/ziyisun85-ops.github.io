@@ -8,16 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
-
-I am an undergraduate student at the College of Engineering, **Ocean University of China**, advised by Prof. [Your Advisor]. My research interests lie in **Embodied AI, Robot Learning, Reinforcement Learning, and Biomimetic Robotics**. I am passionate about building intelligent robotic systems that can operate in challenging real-world environments, especially underwater domains.
+I am an undergraduate student at the College of Engineering, **Ocean University of China**. My research interests lie in **Embodied AI, Robot Learning, Reinforcement Learning, and Biomimetic Robotics**. I am passionate about building intelligent robotic systems that can operate in challenging real-world environments, especially underwater domains.
 
 I am expected to graduate in June 2027 and actively seeking **PhD positions** starting Fall 2027.
 
@@ -102,12 +94,12 @@ I am expected to graduate in June 2027 and actively seeking **PhD positions** st
 
 - *2025*: Shandong Provincial Government Scholarship
 - *2024 & 2025*: First-Class Comprehensive Scholarship, Ocean University of China (twice)
-- *2025*: **National Second Prize**, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
-- *2025*: **Honorable Mention**, Mathematical Contest in Modeling (MCM)
+- *2025*: National Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
+- *2025*: Honorable Mention, Mathematical Contest in Modeling (MCM)
 - *2025*: National First Prize, National 3D Digital Innovation Design Competition
 - *2024 & 2025*: Outstanding Student, Ocean University of China
 - *2024 & 2025*: Outstanding Student Cadre, Ocean University of China
-- *2024*: **National Third Prize**, 18th National College Student Energy Conservation Competition
+- *2024*: National Third Prize, 18th National College Student Energy Conservation Competition
 - *2024*: Science and Technology Innovation Pioneer Team, College of Engineering
 
 <span class='anchor' id='-education'></span>
