@@ -26,7 +26,7 @@ I am expected to graduate in June 2027 and actively seeking **PhD positions** st
 
 # 💻 Research Experience
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/500x300.png' alt="Eel Robot" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/500x300.jpg' alt="Eel Robot" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot**
