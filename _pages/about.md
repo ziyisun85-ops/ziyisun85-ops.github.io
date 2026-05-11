@@ -17,42 +17,130 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am an undergraduate student at the College of Engineering, **Ocean University of China**, advised by Prof. [Your Advisor]. My research interests lie in **Embodied AI, Robot Learning, Reinforcement Learning, and Biomimetic Robotics**. I am passionate about building intelligent robotic systems that can operate in challenging real-world environments, especially underwater domains.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am expected to graduate in June 2027 and actively seeking **PhD positions** starting Fall 2027.
 
+<span class='anchor' id='-news'></span>
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.11*: &nbsp;🎉 Our paper on biomimetic robotic eel was published at **ICCCR 2025**, Zhejiang University. 
+- *2025.10*: &nbsp;🎉 Won **National Second Prize** in CUMCM 2025 (Contemporary Undergraduate Mathematical Contest in Modeling).
+- *2025.09*: &nbsp;🎉 Awarded the **Shandong Provincial Government Scholarship**.
+- *2025.04*: &nbsp;🎉 Our eel-like robot obstacle avoidance paper submitted and under review.
+- *2024.09*: &nbsp;🎉 Received **First-Class Comprehensive Scholarship** (second consecutive year).
 
-# 📝 Publications 
+<span class='anchor' id='-research-experience'></span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# 💻 Research Experience
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/500x300.png' alt="Eel Robot" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot**
+*First Author, Manuscript Under Review*
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- Developed a vision-based robot learning framework combining **imitation learning** initialization with **PPO fine-tuning** for autonomous underwater obstacle avoidance.
+- Built a **MuJoCo** simulation environment with simplified underwater dynamics and AHTA-CPG based action abstraction for strongly coupled eel-like locomotion.
+- Applied **visual domain randomization** and validated the policy in **60 real-world water-tank trials**, achieving 70% to 90% success rates across different obstacle settings.
+- Keywords: Robot Learning, Reinforcement Learning, Imitation Learning, MuJoCo, Sim-to-Real, Visual Domain Randomization
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+**Variable-Length Biomimetic Robotic Fish with Multimodal Perception for Deep-Sea Exploration**
+*Project Lead*
+
+- Led the design of a variable-length biomimetic robotic fish for adaptive operation in unstructured underwater environments.
+- Designed modular antagonistic continuum units to enable morphology adaptation.
+- Developed multimodal data fusion and motion performance evaluation using **Kalman filtering** and **AHP**, with responsibilities in decision-system design, mechanical design, and motion simulation.
+
+**Cross-Domain Biomimetic Eel Robot Based on a Wire-Driven Mechanism**
+*Project Lead | Provincial Innovation and Entrepreneurship Training Project*
+
+- Designed a cross-domain biomimetic eel robot for damage inspection and early warning of dynamic submarine cables in offshore floating wind power systems.
+- Developed a **wire-driven biomimetic structure** with buoyancy-gravity center regulation for efficient cruising and dual-mode surfacing/diving.
+- Integrated visual recognition and **Gaussian splatting** for underwater cable reconstruction and damage detection.
+
+**Optical Modeling-Based Thickness Estimation of Semiconductor Epitaxial Layers**
+*Team Leader | CUMCM 2025 National Second Prize*
+
+- Built an infrared-interference-based thickness estimation model for SiC/Si epitaxial layers.
+- Derived optical path difference and phase relationships under two-beam and multi-beam interference.
+- Applied **Savitzky–Golay filtering**, Fourier analysis, and the transfer matrix method for high-precision thickness inversion.
+
+**High-Stability Duck-Type Wave Energy Converter Based on a Pendulum PTO System**
+*Core Member | National Innovation and Entrepreneurship Training Project*
+
+- Optimized a Salter-D0018 duck-type wave energy converter to improve energy absorption efficiency and operational reliability.
+- Used **AQWA** and genetic algorithms to optimize the hull profile and enhance wave energy capture.
+- Developed a pendulum-based PTO design and adaptive wave-condition control strategy.
+
+**Modular Adaptive Deep-Sea Resource Collection and Locomotion Platform**
+*Core Member | Industry Collaboration with China Merchants Group*
+
+- Designed a modular deep-sea mining vehicle with an active four-track locomotion system for complex seabed terrain.
+- Used **Fluent** to analyze mining-induced plume generation and developed plume suppression structures with a compliant collection mechanism.
+
+<span class='anchor' id='-publications--patents'></span>
+
+# 📝 Publications & Patents
+
+- **Design of Biomimetic Robotic Eel with Omnidirectional Quadruple-Wire-Driven Body and Controlled Central Pattern Generator**  
+  Published in **ICCCR**, Zhejiang University, 2025.  
+  [DOI: 10.1109/ICCCR65461.2025.11072624](https://doi.org/10.1109/ICCCR65461.2025.11072624)
+
+- **Invention Patent**: High-Stability PTO System for Duck-Type Wave Energy Converters  
+  *First Student Inventor*
+
+- **Software Copyright**: Underwater Polarized Light Field Prediction Software for Biomimetic Navigation V1.0  
+  China National Copyright Administration, Registration No. 2024SR0140235
+
+<span class='anchor' id='-honors-and-awards'></span>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025*: Shandong Provincial Government Scholarship
+- *2024 & 2025*: First-Class Comprehensive Scholarship, Ocean University of China (twice)
+- *2025*: **National Second Prize**, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
+- *2025*: **Honorable Mention**, Mathematical Contest in Modeling (MCM)
+- *2025*: National First Prize, National 3D Digital Innovation Design Competition
+- *2024 & 2025*: Outstanding Student, Ocean University of China
+- *2024 & 2025*: Outstanding Student Cadre, Ocean University of China
+- *2024*: **National Third Prize**, 18th National College Student Energy Conservation Competition
+- *2024*: Science and Technology Innovation Pioneer Team, College of Engineering
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<span class='anchor' id='-education'></span>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 📖 Education
+
+- *2023.09 - 2027.06 (Expected)*: **B.Eng. in Mechanical Design, Manufacturing and Automation**  
+  College of Engineering, **Ocean University of China**, Qingdao, Shandong  
+  GPA: **3.7 / 4.0** | Academic Ranking: **4/56 (Top 7%)** | Expected Graduate Recommendation Ranking: **1/52**  
+  Selected Coursework: Numerical Methods, Complex Variables and Integral Transforms, Linear Algebra, Probability Theory and Mathematical Statistics, Mechanical Vibration
+
+<span class='anchor' id='-skills'></span>
+
+# 🛠 Technical Skills
+
+| Category | Skills |
+|----------|--------|
+| **Programming** | Python, C |
+| **Robot Learning** | Reinforcement Learning, Imitation Learning, Sim-to-Real Transfer |
+| **Simulation & Modeling** | MuJoCo, MATLAB, AQWA, Fluent |
+| **Computer Vision** | Visual Recognition, Gaussian Splatting, Visual Domain Randomization |
+| **Robotics & Control** | Motion Simulation, Embedded Control, Mechatronic Debugging |
+| **Mechanical Design** | SolidWorks, 3D Modeling, Structural Design |
+| **Languages** | Mandarin Chinese (native), English (CET-4: 591, CET-6: 482), German (elementary), Italian (elementary) |
+
+<span class='anchor' id='-leadership--service'></span>
+
+# 🤝 Leadership & Service
+
+- **Class Representative**, Ocean University of China
+- **Team Leader**, Engineering College Debate Team
+- **Director of Event Organization Department**, Student Association for the Study of Socialism with Chinese Characteristics
+- **Volunteer**, 2023 Qingdao Marathon
+- **Member**, 2024 National College Student Volunteer Outreach Team for Promoting the Spirit of the Zunyi Conference
+- **Outstanding Individual** in Summer Social Practice, Ocean University of China
+- Active Participant in Youth League Activities
