@@ -1,0 +1,13 @@
+main:
+  - title: "A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot"
+    authors: <strong>Ziyi Sun</strong>
+    conference_short: Under Review
+    conference: Manuscript under review.
+    image: ./assets/img/eel-robot.jpg
+
+  - title: "Design of Biomimetic Robotic Eel with Omnidirectional Quadruple-Wire-Driven Body and Controlled Central Pattern Generator"
+    authors: <strong>Ziyi Sun</strong> and collaborators
+    conference_short: ICCCR
+    conference: International Conference on Computer and Communication Robotics <strong>(ICCCR)</strong>, Zhejiang University, 2025.
+    pdf: https://doi.org/10.1109/ICCCR65461.2025.11072624
+    image: ./assets/img/eel-robot.jpg
