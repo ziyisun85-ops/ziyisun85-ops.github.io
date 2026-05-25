@@ -1,8 +1,8 @@
 main:
   - title: "A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot"
     authors: <strong>Ziyi Sun</strong>
-    conference_short: Under Review
-    conference: Manuscript under review.
+    conference_short: RCAR 2026
+    conference: IEEE International Conference on Real-time Computing and Robotics <strong>(RCAR)</strong>, 2026.
     image: ./assets/img/eel-robot.jpg
 
   - title: "Design of Biomimetic Robotic Eel with Omnidirectional Quadruple-Wire-Driven Body and Controlled Central Pattern Generator"

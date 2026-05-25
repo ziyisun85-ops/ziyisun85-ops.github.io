@@ -3,7 +3,13 @@ layout: homepage
 ---
 
 ## About Me
-I am an undergraduate student in the College of Engineering at [Ocean University of China](https://english.ouc.edu.cn/). My research interests lie in **Embodied AI, Robot Learning, Reinforcement Learning, and Biomimetic Robotics**, with a focus on intelligent robotic systems that can operate robustly in complex real-world environments, especially underwater domains.
+I am currently an undergraduate student in the [College of Engineering](https://cie.ouc.edu.cn/) at [Ocean University of China](https://english.ouc.edu.cn/), majoring in Mechanical Design, Manufacturing and Automation.
+
+In terms of academic performance, my GPA is 3.7/4.0, <span style="color:darkred"><strong>ranking 4th out of 56 (Top 7%)</strong></span>. I am also ranked <span style="color:darkred"><strong>1st out of 52</strong></span> in the expected graduate recommendation ranking.
+
+My research interests lie in **Embodied AI, Robot Learning, and Biomimetic Robotics**, with a focus on intelligent robotic systems that can operate robustly in complex real-world environments, especially underwater domains. I conduct research on learning-based control and decision making for biomimetic underwater robots.
+
+**My primary research goal is to enable intelligent biomimetic robots to operate autonomously in unstructured real-world environments through scalable learning-based approaches.**
 
 I expect to graduate in **June 2027** and am actively seeking **PhD opportunities for Fall 2027**.
 
@@ -16,6 +22,7 @@ I expect to graduate in **June 2027** and am actively seeking **PhD opportunitie
 
 ## News
 
+- **[May 2026]** Our paper on eel-like robot obstacle avoidance is accepted to **IEEE RCAR 2026**!
 - **[Nov. 2025]** Our paper on a biomimetic robotic eel was published at **ICCCR 2025**, Zhejiang University.
 - **[Oct. 2025]** Won **National Second Prize** in the Contemporary Undergraduate Mathematical Contest in Modeling.
 - **[Sep. 2025]** Awarded the **Shandong Provincial Government Scholarship**.
@@ -25,7 +32,7 @@ I expect to graduate in **June 2027** and am actively seeking **PhD opportunitie
 ## Research Experience
 
 ### A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot
-*First Author, manuscript under review*
+*First Author, accepted to IEEE RCAR 2026*
 
 - Developed a vision-based learning framework that combines **imitation learning** initialization with **PPO fine-tuning** for autonomous underwater obstacle avoidance.
 - Built a **MuJoCo** simulation environment with simplified underwater dynamics and **AHTA-CPG** action abstraction for strongly coupled eel-like locomotion.
