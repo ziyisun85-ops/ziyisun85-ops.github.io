@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">📝 Publications</h2>
 
 <div class="publications">
 <ol class="bibliography">
@@ -56,7 +56,7 @@
 </ol>
 </div>
 
-<h3 style="margin: 18px 0 8px;">Patents and Software</h3>
+<h3 style="margin: 18px 0 8px;">📜 Patents and Software</h3>
 
 <ul style="margin-top: 0;">
   <li><strong>Invention Patent:</strong> High-Stability PTO System for Duck-Type Wave Energy Converters. <em>First student inventor.</em></li>
