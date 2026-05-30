@@ -7,8 +7,6 @@ My research interests lie in **Embodied AI** and **Robot Learning**, with a focu
 ## 🔬 Research Interests
 - **🤖 Embodied AI:** perception, decision-making, learning-based control, and long-horizon task execution for physical agents, with a focus on robotic systems operating in complex real-world environments
 
-- **🧠 LLM-based Agents for Robotics:** task decomposition, tool use, execution feedback, and failure recovery for embodied systems, aiming to connect high-level language goals with reliable robotic actions
-
 ## 📢 News
 
 - **[May 2026]** Our paper on eel-like robot obstacle avoidance is accepted to **IEEE RCAR 2026**!😄
