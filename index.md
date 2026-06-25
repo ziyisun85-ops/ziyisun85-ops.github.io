@@ -21,13 +21,6 @@ My research interests lie in **Embodied AI** and **Robot Learning**, with a focu
 
 ## 🛠️ Selected Projects
 
-### 🐍 A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot  
-*First Author, accepted to IEEE RCAR 2026*
-
-- Proposed a two-stage learning framework combining imitation learning initialization with PPO fine-tuning for autonomous underwater obstacle avoidance.
-- Built a MuJoCo-based simulation environment with simplified underwater dynamics and an AHTA-CPG action abstraction for strongly coupled eel-like locomotion.
-- Applied visual domain randomization for sim-to-real transfer and validated the learned policy in 60 real-world water-tank trials, achieving 70% to 90% success rates across different obstacle settings.
-
 ### 🐟 Variable-Length Biomimetic Robotic Fish with Multimodal Perception for Deep-Sea Exploration  
 *Project Lead*
 
