@@ -3,7 +3,8 @@ layout: homepage
 ---
 
 ## 🤖 About Me
-My research interests lie in **Embodied AI** and **Robot Learning**, with a focus on building robotic systems that can perceive, decide, and act reliably in complex real-world environments. My current research explores learning-based control and decision-making for biomimetic underwater robots, including autonomous obstacle avoidance, reinforcement learning with bio-inspired control mechanisms, robust policy learning, and real-world deployment. I am also interested in how LLM-based agent architectures can support task decomposition, execution feedback, and failure recovery for embodied intelligent systems.
+I am Ziyi Sun from Ocean University of China, majoring in Mechanical Design, Manufacturing and its Automation. I am actively seeking PhD opportunities focusing on embodied intelligence.
+
 ## 🔬 Research Interests
 - **🤖 Embodied AI:** perception, decision-making, learning-based control, and long-horizon task execution for physical agents, with a focus on robotic systems operating in complex real-world environments
 
