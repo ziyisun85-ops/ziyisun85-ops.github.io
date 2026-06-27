@@ -10,8 +10,8 @@ I am Ziyi Sun from Ocean University of China, majoring in Mechanical Design, Man
 
 ## 📢 News
 
-- **[May 2026]** Our paper on eel-like robot obstacle avoidance is accepted to **IEEE RCAR 2026**!😄
-- **[Nov. 2025]** Our paper on a biomimetic robotic eel was published at **ICCCR 2025**, Zhejiang University.😄
+- **[May 2026]** Our paper is accepted to **IEEE RCAR 2026**!😄
+- **[Nov. 2025]** Our paper was published at **ICCCR 2025**, Zhejiang University.😄
 - **[Oct. 2025]** Won **National Second Prize** in the Contemporary Undergraduate Mathematical Contest in Modeling.🏆
 - **[Sep. 2025]** Awarded the **Shandong Provincial Government Scholarship**.🏆
 - **[Sep. 2024]** Received the **First-Class Comprehensive Scholarship** for the second consecutive year.🏆
