@@ -1,12 +1,12 @@
 main:
   - title: "A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot"
-    authors: "Ziyi Sun<sup>2</sup>, Luwen Li<sup>2</sup>, Changhong He<sup>2</sup>, Shuo Jiang<sup>2</sup>, Zhuoyan Wang<sup>2</sup>, Haoyuan Cheng<sup>1,2,*</sup><br><sup>1</sup>State Key Laboratory of Intelligent Coal Mining and Strata Control, Beijing, China; <sup>2</sup>College of Engineering, Ocean University of China, Qingdao 266100, China; <sup>*</sup>Corresponding author"
+    authors: "<i>Ziyi Sun<sup>2</sup>, Luwen Li<sup>2</sup>, Changhong He<sup>2</sup>, Shuo Jiang<sup>2</sup>, Zhuoyan Wang<sup>2</sup>, Haoyuan Cheng<sup>1,2,*</sup></i><br><sup>1</sup>State Key Laboratory of Intelligent Coal Mining and Strata Control, Beijing, China; <sup>2</sup>College of Engineering, Ocean University of China, Qingdao 266100, China; <sup>*</sup>Corresponding author"
     conference_short: "IEEE RCAR 2026"
     conference: "IEEE International Conference on Real-time Computing and Robotics <strong>(RCAR)</strong>, 2026."
     image: "./assets/img/eel-robot.jpg"
 
   - title: "Design of Biomimetic Robotic Eel with Omnidirectional Quadruple-Wire-Driven Body and Controlled Central Pattern Generator"
-    authors: "Dingyang Yu<sup>1</sup>, Yuanrong Zhong<sup>1</sup>, Siming Ke, Qianbei Luo, Ziyi Sun, Xunqi Zhao, Qi Chen<sup>*</sup><br><sup>1</sup>These authors contributed equally to this work; <sup>*</sup>Corresponding author"
+    authors: "<i>Dingyang Yu<sup>1</sup>, Yuanrong Zhong<sup>1</sup>, Siming Ke, Qianbei Luo, Ziyi Sun, Xunqi Zhao, Qi Chen<sup>*</sup></i><br><sup>1</sup>These authors contributed equally to this work; <sup>*</sup>Corresponding author"
     conference_short: "ICCCR 2025"
     conference: "International Conference on Computer and Communication Robotics <strong>(ICCCR)</strong>, Zhejiang University, 2025."
     pdf: "https://doi.org/10.1109/ICCCR65461.2025.11072624"
