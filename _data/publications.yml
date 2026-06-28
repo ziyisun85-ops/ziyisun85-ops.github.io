@@ -3,7 +3,7 @@ main:
     authors: "<i><strong><u>Ziyi Sun<sup>2</sup></u></strong>, Luwen Li<sup>2</sup>, Changhong He<sup>2</sup>, Shuo Jiang<sup>2</sup>, Zhuoyan Wang<sup>2</sup>, Haoyuan Cheng<sup>1,2,*</sup></i><br><sup>1</sup>State Key Laboratory of Intelligent Coal Mining and Strata Control, Beijing, China; <sup>2</sup>College of Engineering, Ocean University of China, Qingdao 266100, China; <sup>*</sup>Corresponding author"
     conference_short: "IEEE RCAR 2026"
     conference: "IEEE International Conference on Real-time Computing and Robotics <strong>(IEEE RCAR)</strong>, 2026."
-    pdf: "./assets/pdf/A_Two_Stage_Learning_Framework_for_Autonomous_Obstacle_Avoidance_of_an_Eel_Like_Robot.pdf"
+    pdf: "./assets/files/A_Two_Stage_Learning_Framework_for_Autonomous_Obstacle_Avoidance_of_an_Eel_Like_Robot.pdf"
     image: "./assets/img/eel-robot.jpg"
 
   - title: "Design of Biomimetic Robotic Eel with Omnidirectional Quadruple-Wire-Driven Body and Controlled Central Pattern Generator"
