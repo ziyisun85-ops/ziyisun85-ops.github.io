@@ -16,19 +16,8 @@ I am Ziyi Sun from Ocean University of China, majoring in Mechanical Design, Man
 - **[Oct. 2025]** Won **National Second Prize** in the Contemporary Undergraduate Mathematical Contest in Modeling.🏆
 - **[May. 2025]** Our paper was published at **ICCCR 2025**, Zhejiang University.😄
 
-{% include_relative _includes/selected_awards.md %}
-
 {% include_relative _includes/publications.md %}
 
-## 💻 Technical Skills
-
-| Category | Skills |
-| --- | --- |
-| Programming and Data Analysis | Python, C/C++, MATLAB, NumPy, Pandas, Matplotlib, PyTorch |
-| AI Agent Workflow | Agent Harness design, task decomposition, code generation, automated testing, experiment review, documentation generation |
-| Machine Learning | Reinforcement Learning, Imitation Learning, Policy Optimization, Simulation Training, Sim-to-Real Transfer |
-| Mathematical Modeling | Probability and Statistics, Linear Algebra, Numerical Computing, Filtering Estimation, Multi-objective Optimization |
-| Simulation and Robotics | MuJoCo, SolidWorks, Arduino, simulation modeling, experimental validation |
-| Languages | Mandarin Chinese, English, German, Italian |
+{% include_relative _includes/selected_awards.md %}
 
 {% include_relative _includes/services.md %}
