@@ -20,44 +20,6 @@ I am Ziyi Sun from Ocean University of China, majoring in Mechanical Design, Man
 
 {% include_relative _includes/publications.md %}
 
-## 🛠️ Selected Projects
-
-### 🐟 Variable-Length Biomimetic Robotic Fish with Multimodal Perception for Deep-Sea Exploration  
-*Project Lead*
-
-- Led the design of a variable-length biomimetic robotic fish for adaptive operation in unstructured underwater environments.
-- Designed modular antagonistic continuum units to support morphology adaptation and underwater motion flexibility.
-- Developed multimodal perception fusion and motion-performance evaluation methods using Kalman filtering and AHP, covering decision-system design, mechanical design, and motion simulation.
-
-### 📡 Cross-Domain Biomimetic Eel Robot Based on a Wire-Driven Mechanism  
-*Project Lead*
-
-- Designed a cross-domain eel-like robot for submarine cable inspection and early warning in offshore engineering scenarios.
-- Integrated wire-driven locomotion, buoyancy-gravity regulation, visual recognition, and Gaussian splatting-based 3D reconstruction for underwater cable inspection.
-- Contributed to mechanical design, hydrodynamic analysis, and cross-domain motion mechanism design.
-
-### 🔬 Optical Modeling-Based Thickness Estimation of Semiconductor Epitaxial Layers  
-*Modeling Project*
-
-- Built an interference-based thickness inversion model for SiC/Si epitaxial layers.
-- Applied Savitzky-Golay filtering, Fourier analysis, and transfer matrix methods for spectral signal processing and parameter estimation.
-- Developed a numerical modeling pipeline for optical thickness estimation and result validation.
-
-### 🌊 High-Stability Duck-Type Wave Energy Converter Based on a Pendulum PTO System  
-*Engineering Design Project*
-
-- Designed a duck-type wave energy converter with a pendulum-based PTO system for improved energy capture stability.
-- Used AQWA simulation and genetic algorithms to optimize structural parameters and wave-energy conversion performance.
-- Developed an adaptive PTO regulation strategy for varying wave conditions.
-
-### ⚙️ Modular Adaptive Deep-Sea Resource Collection and Locomotion Platform  
-*Team Member*
-
-- Contributed to the design of a modular deep-sea resource collection and locomotion platform for complex seabed terrain.
-- Participated in the design of active four-track locomotion and compliant collection structures.
-- Supported mechanical design and system-level analysis for terrain adaptability and plume-suppression performance.
-
-
 ## 💻 Technical Skills
 
 | Category | Skills |
