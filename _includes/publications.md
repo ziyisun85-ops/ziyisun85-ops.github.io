@@ -59,6 +59,6 @@
 <h3 style="margin: 18px 0 8px;">📜 Patents and Software</h3>
 
 <ul style="margin-top: 0;">
-  <li><strong>Invention Patent:</strong> High-Stability PTO System for Duck-Type Wave Energy Converters. <em>First student inventor.</em></li>
-  <li><strong>Software Copyright:</strong> Underwater Polarized Light Field Prediction Software for Biomimetic Navigation V1.0. Registration No. 2024SR0140235.</li>
+  <li><strong>Invention Patent:</strong> A High-Stability PTO System for Duck-Type Wave Energy Converters. <em>First student inventor.</em></li>
+  <li><strong>Software Copyright:</strong> Underwater Polarized Light Field Prediction Software for Biomimetic Navigation V1.0 (Registration No. 2024SR0140235).</li>
 </ul>
