@@ -10,6 +10,7 @@ I am an undergraduate student at Ocean University of China, majoring in Mechanic
 
 ## 📢 News
 
+- **[Aug. 2026]** Our **IEEE RCAR 2026** paper has been selected as a **Best Paper Finalist**!🏆
 - **[May 2026]** Our paper has been accepted to **IEEE RCAR 2026**!😄
 - **[Sep. 2025]** Awarded the **Shandong Provincial Government Scholarship**.🏆
 - **[Dec. 2025]** Received the **National First Prize** in the National 3D Digital Innovation Design Competition.
