@@ -4,18 +4,15 @@ display_name:
   - 孙梓轶
   - Ziyi.Winer.Sun
 browser_title: Ziyi.Winer.Sun / 孙梓轶
-position: Incoming M.S. Student
-affiliation: Institute of Automation, Chinese Academy of Sciences
-affiliation_link: https://english.ia.cas.cn/
-affiliation_secondary: Ocean University of China
-affiliation_secondary_link: https://english.ouc.edu.cn/
-affiliation_secondary_note: Current
+position: Undergraduate Student
+affiliation: Ocean University of China
+affiliation_link: https://english.ouc.edu.cn/
 email: ziyisun85@gmail.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Ziyi.Winer.Sun, Ziyi Sun, Winer, Sun Ziyi, Embodied AI, Robot Learning, Biomimetic Robotics, CASIA, Institute of Automation, Chinese Academy of Sciences, Ocean University of China
-description: Incoming M.S. student at the Institute of Automation, Chinese Academy of Sciences (CASIA). Undergraduate at Ocean University of China working on embodied AI and robot learning.
+keywords: Ziyi.Winer.Sun, Ziyi Sun, Winer, Sun Ziyi, Embodied AI, Robot Learning, Biomimetic Robotics, Ocean University of China, CASIA, Institute of Automation, Chinese Academy of Sciences
+description: Undergraduate student at Ocean University of China working on embodied AI and robot learning. Incoming M.S. student at the Institute of Automation, Chinese Academy of Sciences (CASIA).
 canonical:
 
 # Links 
