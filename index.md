@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## 🤖 About Me
-I am an undergraduate student at Ocean University of China, majoring in Mechanical Design, Manufacturing and Automation. I have been recommended for admission to pursue an M.S. degree at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](https://english.ia.cas.cn/). My research focuses on embodied intelligence and robot learning.
+I am an undergraduate student at [Ocean University of China](https://english.ouc.edu.cn/), majoring in Mechanical Design, Manufacturing and Automation. I have been recommended for admission to pursue an M.S. degree at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](https://english.ia.cas.cn/). My research focuses on embodied intelligence and robot learning.
 
 ## 🔬 Research Interests
 - **🤖 Embodied AI:** perception, decision-making, learning-based control, and long-horizon task execution for physical agents, with a particular focus on robots operating in complex real-world environments
