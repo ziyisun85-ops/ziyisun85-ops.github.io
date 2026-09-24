@@ -1,7 +1,7 @@
 main:
   - title: "CHOREO: Every Humanoid Skill as a Trajectory"
     authors: "<i><strong><u>Ziyi Sun</u></strong>, Jingwen Chen, Yuxi Wang, Xiuze Xia, Long Cheng, Zhaoxiang Zhang, Yujun Dong</i>"
-    conference_short: "arXiv 2026"
+    conference_short: "Under Review"
     conference: "arXiv preprint, 2026."
     arxiv: "https://arxiv.org/abs/2609.22274"
     project: "https://github.com/ziyisun85-ops/Project-choreo"
