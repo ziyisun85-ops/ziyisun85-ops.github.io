@@ -2,6 +2,8 @@
 <h4 style="margin:0 10px 0;">2025</h4>
 
 <ul style="margin:0 0 5px;">
+  <li><a><autocolor>🏆 National Scholarship</autocolor></a></li>
+  <li><a><autocolor>🏅 Special Scholarship, Ocean University of China (10 recipients university-wide annually)</autocolor></a></li>
   <li><a><autocolor>🎓 Shandong Provincial Government Scholarship</autocolor></a></li>
   <li><a><autocolor>📊 National Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</autocolor></a></li>
   <li><a><autocolor>🌍 Honorable Mention, Mathematical Contest in Modeling (MCM)</autocolor></a></li>

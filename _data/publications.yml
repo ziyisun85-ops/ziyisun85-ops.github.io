@@ -1,4 +1,11 @@
 main:
+  - title: "CHOREO: Every Humanoid Skill as a Trajectory"
+    authors: "<i><strong><u>Ziyi Sun</u></strong>, Jingwen Chen, Yuxi Wang, Xiuze Xia, Long Cheng, Zhaoxiang Zhang, Yujun Dong</i>"
+    conference_short: "arXiv 2026"
+    conference: "arXiv preprint, 2026."
+    arxiv: "https://arxiv.org/abs/2609.22274"
+    project: "https://github.com/ziyisun85-ops/Project-choreo"
+    image: "https://raw.githubusercontent.com/ziyisun85-ops/Project-choreo/main/teaser_01.png"
   - title: "A Two-Stage Learning Framework for Autonomous Obstacle Avoidance of an Eel-Like Robot"
     authors: "<i><strong><u>Ziyi Sun<sup>2</sup></u></strong>, Luwen Li<sup>2</sup>, Changhong He<sup>2</sup>, Shuo Jiang<sup>2</sup>, Zhuoyan Wang<sup>2</sup>, Haoyuan Cheng<sup>1,2,*</sup></i><br><sup>1</sup>State Key Laboratory of Intelligent Coal Mining and Strata Control, Beijing, China; <sup>2</sup>College of Engineering, Ocean University of China, Qingdao 266100, China; <sup>*</sup>Corresponding author"
     conference_short: "IEEE RCAR 2026"
