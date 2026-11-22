@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a senior undergraduate student in Mechanical Design, Manufacturing and Automation at [Ocean University of China (OUC)](https://english.ouc.edu.cn/) (rank: 1/71). I have been recommended for admission to the [Institute of Automation, Chinese Academy of Sciences (CASIA)](https://english.ia.cas.cn/) as a master's student in Computer Application Technology, starting in Fall 2027. I work on embodied intelligence and robot learning, with a focus on humanoid robots. From July to October 2026, I was a research intern at RoboParty Lab, where I worked on competitive humanoid table tennis. At OUC, I work with Associate Professor [Yuxi Wang](https://yxiwang.github.io/) and Lecturer Xiuze Xia on humanoid skill composition, and with Lecturer Haoyuan Cheng on learning-based control for bio-inspired underwater robots.
+I am a senior undergraduate student in Mechanical Design, Manufacturing and Automation at [Ocean University of China (OUC)](https://english.ouc.edu.cn/) (rank: 1/71). I will join the [Institute of Automation, Chinese Academy of Sciences (CASIA)](https://english.ia.cas.cn/) as a master's student in Computer Application Technology in Fall 2027. I work on embodied intelligence and robot learning, with a focus on humanoid robots. From July to October 2026, I was a research intern at RoboParty Lab, where I worked on competitive humanoid table tennis. At OUC, I work with Associate Professor [Yuxi Wang](https://yxiwang.github.io/) and Lecturer Xiuze Xia on humanoid skill composition, and with Lecturer Haoyuan Cheng on learning-based control for bio-inspired underwater robots.
 
 **My research goal is to build generalizable embodied agents that can perceive, reason, and act autonomously in complex real-world environments.**
 
@@ -16,7 +16,7 @@ I am a senior undergraduate student in Mechanical Design, Manufacturing and Auto
 
 - **[Oct. 2026]** Our paper **From Hitter to Player** on competitive humanoid table tennis is out on [arXiv](https://arxiv.org/abs/2610.14067)!🏓
 - **[Sep. 2026]** Our paper **CHOREO** on continuous humanoid skill execution is out on [arXiv](https://arxiv.org/abs/2609.22274)!🤖
-- **[Aug. 2026]** Recommended for admission to the **Institute of Automation, Chinese Academy of Sciences (CASIA)** for a master's program!🎓
+- **[Aug. 2026]** I will join the **Institute of Automation, Chinese Academy of Sciences (CASIA)** as a master's student!🎓
 - **[Aug. 2026]** Our **IEEE RCAR 2026** paper has been selected as a **Best Control Paper Finalist**!🏆
 
 <details class="older-news">
