@@ -11,7 +11,7 @@
     {% if link.video %}
     <div class="teaser-video">
       <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="">
-      <div class="teaser-video-clip">
+      <div class="teaser-video-clip{% if link.video_crop_top %} crop-top{% endif %}">
         <video src="{{ link.video }}" poster="{{ link.image }}" autoplay muted loop playsinline preload="metadata" aria-label="{{ link.title | escape }}"></video>
       </div>
     </div>

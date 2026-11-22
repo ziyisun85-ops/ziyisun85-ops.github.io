@@ -72,9 +72,7 @@ details.older-news > summary:hover {
 }
 
 // Video teasers: the poster <img> keeps the same size as the other teasers,
-// and the video is laid over it. The video is drawn 25% taller than the box
-// and anchored to the bottom, so the caption burned into the top of the clip
-// is cut off.
+// and the video is laid over it, filling the box.
 .teaser-video {
   position: relative;
 }
@@ -95,8 +93,14 @@ details.older-news > summary:hover {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 125%;
+  height: 100%;
   object-fit: cover;
+}
+
+// video_crop_top: draw the video 25% taller than the box and anchor it to
+// the bottom, so a caption burned into the top of the clip is cut off.
+.teaser-video-clip.crop-top video {
+  height: 125%;
   object-position: center bottom;
 }
 
