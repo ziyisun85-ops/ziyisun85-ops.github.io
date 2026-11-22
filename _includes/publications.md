@@ -17,7 +17,9 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">
-        {% if link.pdf %}
+        {% if link.paper %}
+        <a href="{{ link.paper }}" target="_blank" rel="noopener">{{ link.title }}</a>
+        {% elsif link.pdf %}
         <a href="{{ link.pdf }}">{{ link.title }}</a>
         {% elsif link.arxiv %}
         <a href="{{ link.arxiv }}" target="_blank" rel="noopener">{{ link.title }}</a>
@@ -29,6 +31,9 @@
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
+      {% if link.paper %}
+      <a href="{{ link.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Paper</a>
+      {% endif %}
       {% if link.pdf %}
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}

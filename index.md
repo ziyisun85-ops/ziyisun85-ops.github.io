@@ -11,12 +11,11 @@ I am an undergraduate student at [Ocean University of China](https://english.ouc
 ## 📢 News
 
 - **[Aug. 2026]** Recommended for admission to the **Institute of Automation, Chinese Academy of Sciences (CASIA)** for an M.S. program!🎓
-- **[Aug. 2026]** Our **IEEE RCAR 2026** paper has been selected as a **Best Paper Finalist**!🏆
+- **[Aug. 2026]** Our **IEEE RCAR 2026** paper has been selected as a **Best Control Paper Finalist**!🏆
 - **[May 2026]** Our paper has been accepted to **IEEE RCAR 2026**!😄
 - **[Sep. 2025]** Awarded the **Shandong Provincial Government Scholarship**.🏆
 - **[Dec. 2025]** Received the **National First Prize** in the National 3D Digital Innovation Design Competition.
 - **[Oct. 2025]** Received the **National Second Prize** in the Contemporary Undergraduate Mathematical Contest in Modeling.🏆
-- **[May 2025]** Our paper was published at **ICCCR 2025**, Zhejiang University.😄
 
 {% include_relative _includes/publications.md %}
 
