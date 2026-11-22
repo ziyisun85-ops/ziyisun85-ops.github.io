@@ -7,7 +7,7 @@ main:
     project: "https://mufanmufan.github.io/hitter-to-player/"
     image: "./assets/img/hitter-to-player.jpg"
   - title: "CHOREO: From Single Skill to Continuous Humanoid Execution"
-    authors: "<i><strong><u>Ziyi Sun<sup>†</sup></u></strong>, Jingwen Chen, Xiuze Xia<sup>†</sup>, Yuxi Wang<sup>*</sup>, Long Cheng, Zhaoxiang Zhang, Junyu Dong</i><br><sup>†</sup>Equal contribution; <sup>*</sup>Corresponding author"
+    authors: "<i><strong><u>Ziyi Sun<sup>†</sup></u></strong>, Jingwen Chen<sup>†</sup>, Xiuze Xia<sup>†</sup>, Yuxi Wang<sup>*</sup>, Long Cheng, Zhaoxiang Zhang, Junyu Dong</i><br><sup>†</sup>Equal contribution; <sup>*</sup>Corresponding author"
     conference_short: "Under Review"
     conference: "Under review, 2026."
     paper: "https://arxiv.org/pdf/2609.22274"
