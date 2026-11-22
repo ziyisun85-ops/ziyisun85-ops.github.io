@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.browser_title | default: site.title }}{% if site.affiliation %} | {{ site.affiliation }}{% endif %}</title>
+    <title>{% if page.head_title %}{{ page.head_title }} | {% endif %}{{ site.browser_title | default: site.title }}{% if site.affiliation %} | {{ site.affiliation }}{% endif %}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -121,6 +121,15 @@
         {% endif %}
 
         </div>
+
+        {% if site.nav %}
+        <nav class="sidebar-nav" aria-label="Site sections">
+          <div class="sidebar-nav-label">Explore</div>
+          {% for item in site.nav %}
+          <a href="{{ item.url }}"{% if item.url == page.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+        {% endif %}
         <br>
 
       </header>

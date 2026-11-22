@@ -12,7 +12,7 @@ email: ziyisun85@gmail.com
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Ziyi.Winer.Sun, Ziyi Sun, Winer, Sun Ziyi, Embodied AI, Robot Learning, Biomimetic Robotics, Ocean University of China, CASIA, Institute of Automation, Chinese Academy of Sciences
-description: Undergraduate student at Ocean University of China working on embodied AI and robot learning. Incoming M.S. student at the Institute of Automation, Chinese Academy of Sciences (CASIA).
+description: Undergraduate student at Ocean University of China working on embodied AI and robot learning. Incoming master's student at the Institute of Automation, Chinese Academy of Sciences (CASIA).
 canonical:
 
 # Links 
@@ -24,6 +24,19 @@ douyin_link: https://v.douyin.com/wh2esco2d4s/
 xiaohongshu_link: https://xhslink.cn/m/4p2xhGvQwhD
 # linkedin:
 # twitter:
+
+# Sidebar navigation ("Explore" menu under the social icons)
+nav:
+  - title: About Me
+    url: /
+  - title: News
+    url: /#news
+  - title: Publications
+    url: /#publications
+  - title: Honors & Awards
+    url: /awards.html
+  - title: Leadership & Service
+    url: /service.html
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 

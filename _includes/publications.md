@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">📝 Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="publications">
 <ol class="bibliography">
@@ -8,11 +8,18 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %}
+    {% if link.video %}
+    <div class="teaser-video">
+      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="">
+      <div class="teaser-video-clip">
+        <video src="{{ link.video }}" poster="{{ link.image }}" autoplay muted loop playsinline preload="metadata" aria-label="{{ link.title | escape }}"></video>
+      </div>
+    </div>
+    {% elsif link.image %}
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
     {% if link.conference_short %}
     <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -66,7 +73,7 @@
 </ol>
 </div>
 
-<h3 style="margin: 18px 0 8px;">📜 Patents and Software</h3>
+<h3 style="margin: 18px 0 8px;">Patents and Software</h3>
 
 <ul style="margin-top: 0;">
   <li><strong>Invention Patent:</strong> A High-Stability PTO System for Duck-Type Wave Energy Converters. <em>First student inventor.</em></li>

@@ -1,4 +1,4 @@
-## 🤝 Leadership and Service
+## Leadership and Service
 
 <h4 style="margin:0 10px 0;">Roles</h4>
 
