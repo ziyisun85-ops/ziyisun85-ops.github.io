@@ -7,6 +7,7 @@
 
 <li>
 <div class="pub-row">
+  {% if link.image or link.video or link.conference_short %}
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.video %}
     <div class="teaser-video">
@@ -22,7 +23,8 @@
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  {% endif %}
+  <div class="{% if link.image or link.video or link.conference_short %}col-sm-9{% else %}col-sm-12{% endif %}" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">
         {% if link.paper %}
         <a href="{{ link.paper }}" target="_blank" rel="noopener">{{ link.title }}</a>
@@ -37,6 +39,7 @@
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
+    {% if link.description %}<div class="manuscript-description">{{ link.description | escape }}</div>{% endif %}
     <div class="links">
       {% if link.paper %}
       <a href="{{ link.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Paper</a>
