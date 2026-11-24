@@ -27,7 +27,7 @@ main:
     authors: "<i>Can Xue, Changhong He, <span class='author-me'>Ziyi Sun</span>, Anliang Ge, Shimin Yu, Bingchen Liang</i>"
     conference: "arXiv preprint arXiv:2611.26333, 2026."
     description: "OceanCoder generates OrcaFlex programs from engineering requirements and uses engineering checks as reinforcement learning feedback."
-    arxiv: "https://arxiv.org/abs/2611.26333"
+    paper: "https://arxiv.org/abs/2611.26333"
   - title: "A Simulation Framework for Evaluating Deep-Sea Nodule Collection Using Digital Asset Decoupling and Robot-Centric Streaming"
     authors: "<i>Can Xue<sup>†</sup>, Kesuan Gong<sup>†</sup>, Changhong He, <span class='author-me'>Ziyi Sun</span>, Shimin Yu<sup>*</sup></i><br><sup>†</sup>Equal contribution; <sup>*</sup>Corresponding author"
     conference: "Manuscript, 2026."
