@@ -25,6 +25,7 @@ main:
     image: "./assets/img/eel-robot.jpg"
   - title: "OceanCoder: A Verification-Guided Large Language Model for Automated Simulation Modelling in Ocean Engineering"
     authors: "<i>Can Xue, Changhong He, <span class='author-me'>Ziyi Sun</span>, Anliang Ge, Shimin Yu, Bingchen Liang</i>"
+    conference_short: "Under Review"
     conference: "arXiv preprint arXiv:2611.26333, 2026."
     description: "OceanCoder generates OrcaFlex programs from engineering requirements and uses engineering checks as reinforcement learning feedback."
     paper: "https://arxiv.org/abs/2611.26333"
