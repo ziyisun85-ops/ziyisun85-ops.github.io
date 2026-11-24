@@ -17,7 +17,11 @@
       </div>
     </div>
     {% elsif link.image %}
+    {% if link.image_contain %}
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.image_alt | escape }}" style="height:auto;max-width:100%;object-fit:contain">
+    {% else %}
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
     {% endif %}
     {% if link.conference_short %}
     <abbr class="badge">{{ link.conference_short }}</abbr>

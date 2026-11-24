@@ -28,7 +28,6 @@ main:
     conference: "arXiv preprint arXiv:2611.26333, 2026."
     description: "OceanCoder generates OrcaFlex programs from engineering requirements and uses engineering checks as reinforcement learning feedback."
     paper: "https://arxiv.org/abs/2611.26333"
-  - title: "A Simulation Framework for Evaluating Deep-Sea Nodule Collection Using Digital Asset Decoupling and Robot-Centric Streaming"
-    authors: "<i>Can Xue<sup>†</sup>, Kesuan Gong<sup>†</sup>, Changhong He, <span class='author-me'>Ziyi Sun</span>, Shimin Yu<sup>*</sup></i><br><sup>†</sup>Equal contribution; <sup>*</sup>Corresponding author"
-    conference: "Manuscript, 2026."
-    description: "The MuJoCo framework evaluates deep-sea nodule collection using separate robot and environment assets and local scene streaming that preserves collection history."
+    image: "./assets/img/oceancoder-fig2.png"
+    image_contain: true
+    image_alt: "OceanCoder framework overview from Figure 2"
