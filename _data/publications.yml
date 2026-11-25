@@ -9,7 +9,7 @@ main:
     video: "./assets/video/hitter-to-player.mp4"
     video_crop_top: true
   - title: "CHOREO: From Single Skill to Continuous Humanoid Execution"
-    authors: "<i><span class='author-me'>Ziyi Sun<sup>†</sup></span>, Jingwen Chen<sup>†</sup>, Xiuze Xia<sup>*</sup>, Yuxi Wang<sup>*</sup>, Long Cheng, Zhaoxiang Zhang, Junyu Dong</i><br><sup>†</sup>Equal contribution; <sup>*</sup>Corresponding authors"
+    authors: "<i><span class='author-me'>Ziyi Sun<sup>†</sup></span>, Jingwen Chen<sup>†</sup>, Yuxi Wang<sup>*</sup>, Xiuze Xia<sup>*</sup>, Long Cheng, Zhaoxiang Zhang, Junyu Dong</i><br><sup>†</sup>Equal contribution; <sup>*</sup>Corresponding authors"
     conference_short: "Under Review"
     conference: "Under review, 2026."
     paper: "https://arxiv.org/pdf/2609.22274"
