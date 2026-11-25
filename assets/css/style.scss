@@ -104,59 +104,128 @@ details.older-news > summary:hover {
   object-position: center bottom;
 }
 
-// Events page: a 16:9 picture beside the date/type line, title, blurb and link
+// Events page: compact cards tinted like the sidebar menu. The title link
+// is stretched over the whole card, so clicking anywhere opens the post.
 .event-list {
   display: grid;
-  gap: 18px;
+  gap: 12px;
 }
 
 .event-card {
+  position: relative;
   display: grid;
-  grid-template-columns: 210px minmax(0, 1fr);
-  gap: 18px;
-  align-items: start;
-  padding-bottom: 18px;
-  border-bottom: 1px solid #e5e5e5;
+  grid-template-columns: 160px minmax(0, 1fr);
+  grid-template-areas:
+    "thumb head"
+    "thumb desc";
+  grid-template-rows: auto 1fr;
+  column-gap: 16px;
+  row-gap: 4px;
+  padding: 12px;
+  border: 1px solid #e3eaf1;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+  transition: border-color 0.15s, background-color 0.15s, box-shadow 0.15s, transform 0.15s;
 }
 
-.event-card:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
+.event-card:hover {
+  border-color: #b5d3ea;
+  background-color: #f1f6fb;
+  box-shadow: 0 6px 18px rgba(4, 51, 97, 0.08);
+  transform: translateY(-1px);
 }
 
-.event-figure {
+.event-card:focus-within {
+  border-color: #39c;
+}
+
+.event-thumb {
+  grid-area: thumb;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  border-radius: 8px;
-  background-color: #f4f7fa;
-  box-shadow: 3px 3px 6px #888;
+  border-radius: 6px;
+  background-color: #e6edf4;
 }
 
-.event-figure img {
+.event-thumb img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.event-meta {
-  margin-bottom: 4px;
-  color: #767676;
-  font-size: 14px;
+.event-head {
+  grid-area: head;
+  min-width: 0;
 }
 
-.event-card h3 {
-  margin: 0 0 6px;
-  font-size: 18px;
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.event-date {
+  padding: 0 8px;
+  border-radius: 999px;
+  background-color: #e6f0f8;
+  color: #043361;
+  font-weight: 600;
+}
+
+.event-type {
+  color: #39c;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.event-source {
+  margin-left: auto;
+  color: #8796a5;
+}
+
+.event-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
   line-height: 1.3;
 }
 
-.event-card p {
-  margin: 0 0 6px;
+.event-title a {
+  color: #043361;
+  transition: color 0.15s;
 }
 
-.event-link {
+.event-title a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.event-title a:focus {
+  outline: none;
+}
+
+.event-card:hover .event-title a {
+  color: #39c;
+}
+
+.event-desc {
+  grid-area: desc;
+  margin: 0;
+  color: #66707c;
   font-size: 15px;
+  line-height: 1.45;
 }
 
 // Wide screens: the header is fixed, so keep the whole menu reachable in
@@ -209,24 +278,84 @@ details.older-news > summary:hover {
   }
 
   .event-card {
-    border-bottom-color: #3a3d4d;
+    border-color: #333646;
+    background-color: #262833;
   }
 
-  .event-figure {
-    background-color: #282a36;
-    box-shadow: 3px 3px 6px #111;
+  .event-card:hover {
+    border-color: #3f6f8f;
+    background-color: #2a2d3b;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
   }
 
-  .event-meta {
-    color: #a3a5b4;
+  .event-card:focus-within {
+    border-color: rgb(62, 183, 240);
+  }
+
+  .event-thumb {
+    background-color: #30334a;
+  }
+
+  .event-date {
+    background-color: #30334a;
+    color: #d3ebfb;
+  }
+
+  .event-type {
+    color: rgb(62, 183, 240);
+  }
+
+  .event-source {
+    color: #8d91a3;
+  }
+
+  .event-title a {
+    color: #eeeff0;
+  }
+
+  .event-card:hover .event-title a {
+    color: rgb(62, 183, 240);
+  }
+
+  .event-desc {
+    color: #a9acbb;
   }
 }
 
-// Phones: stack the picture above the text
-@media print, screen and (max-width: 640px) {
+// Phones: a smaller thumbnail, and the summary runs under it at full width
+@media print, screen and (max-width: 560px) {
   .event-card {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: 108px minmax(0, 1fr);
+    grid-template-areas:
+      "thumb head"
+      "desc desc";
+    grid-template-rows: auto auto;
+    column-gap: 12px;
+    row-gap: 8px;
+    padding: 10px;
+  }
+
+  .event-title {
+    font-size: 16px;
+  }
+
+  .event-desc {
+    font-size: 14.5px;
+  }
+
+  .event-source-label {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .event-card,
+  .event-title a {
+    transition: none;
+  }
+
+  .event-card:hover {
+    transform: none;
   }
 }
 

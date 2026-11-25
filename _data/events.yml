@@ -1,19 +1,25 @@
 # Events page (events.md -> /events.html), newest first.
 # image: a 16:9 picture in assets/img/events/ (720x405 is enough).
-# description may contain HTML; link_text defaults to "View post".
+# description: one short sentence (it may contain HTML).
+# source / source_icon: optional, shown at the right of the date line
+# (source_icon is a Font Awesome class, e.g. "fa-brands fa-weixin").
 
 - date: "Nov. 2026"
   type: "Interview"
   title: "Rooted in Passion, Growing Beyond Limits"
-  description: "Interviewed by the OUC College of Engineering as a 2026 National Scholarship recipient, about following curiosity, the habit of regular reflection, and moving from mechanical design to humanoid robot control."
+  description: "Interviewed by the OUC College of Engineering as a 2026 National Scholarship recipient."
   image: "./assets/img/events/national-scholarship-interview.jpg"
   image_alt: "Ziyi Sun working at a lab workstation"
   link: "https://mp.weixin.qq.com/s/Rhpf8RU0wwWMYQR7aM-5Yg"
+  source: "WeChat"
+  source_icon: "fa-brands fa-weixin"
 
 - date: "May 2025"
   type: "Outreach"
   title: "Words of Encouragement for Gaokao Candidates"
-  description: "Shared advice in Ocean University of China's official 30-day gaokao countdown, encouraging students preparing for China's national college entrance exam to stay calm and treat it as an ordinary part of life."
+  description: "Advice on keeping a steady mindset before the exam, featured in Ocean University of China’s official 30-day countdown."
   image: "./assets/img/events/gaokao-countdown.jpg"
   image_alt: "Ziyi Sun reading a book in a library"
   link: "https://mp.weixin.qq.com/s/GGkwn3ntlwpi5dSLj_g0YQ"
+  source: "WeChat"
+  source_icon: "fa-brands fa-weixin"
