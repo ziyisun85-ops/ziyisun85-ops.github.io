@@ -104,6 +104,61 @@ details.older-news > summary:hover {
   object-position: center bottom;
 }
 
+// Events page: a 16:9 picture beside the date/type line, title, blurb and link
+.event-list {
+  display: grid;
+  gap: 18px;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.event-card:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.event-figure {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #f4f7fa;
+  box-shadow: 3px 3px 6px #888;
+}
+
+.event-figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-meta {
+  margin-bottom: 4px;
+  color: #767676;
+  font-size: 14px;
+}
+
+.event-card h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.event-card p {
+  margin: 0 0 6px;
+}
+
+.event-link {
+  font-size: 15px;
+}
+
 // Wide screens: the header is fixed, so keep the whole menu reachable in
 // short windows
 @media screen and (min-width: 961px) {
@@ -151,6 +206,27 @@ details.older-news > summary:hover {
 
   details.older-news > summary {
     color: rgb(62, 183, 240);
+  }
+
+  .event-card {
+    border-bottom-color: #3a3d4d;
+  }
+
+  .event-figure {
+    background-color: #282a36;
+    box-shadow: 3px 3px 6px #111;
+  }
+
+  .event-meta {
+    color: #a3a5b4;
+  }
+}
+
+// Phones: stack the picture above the text
+@media print, screen and (max-width: 640px) {
+  .event-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 }
 
