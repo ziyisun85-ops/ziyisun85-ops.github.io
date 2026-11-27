@@ -1,12 +1,49 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
+<style>
+@media screen and (max-width: 600px) {
+  .publications ol.bibliography li .pub-row--contained-teaser {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-inline: 15px;
+  }
+
+  .publications ol.bibliography li .pub-row--contained-teaser > .abbr,
+  .publications ol.bibliography li .pub-row--contained-teaser > .col-sm-9 {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    padding-inline: 0 !important;
+  }
+
+  .publications ol.bibliography li .pub-row--contained-teaser > .abbr {
+    height: auto;
+    margin: 0;
+  }
+
+  .publications ol.bibliography li .pub-row--contained-teaser .abbr .badge {
+    display: none; /* The review status is already shown below the authors. */
+  }
+
+  .publications ol.bibliography li .pub-row--contained-teaser .teaser {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-shadow: none;
+  }
+}
+</style>
+
 <div class="publications">
 <ol class="bibliography">
 
 {% for link in site.data.publications.main %}
 
 <li>
-<div class="pub-row">
+<div class="pub-row{% if link.image_contain %} pub-row--contained-teaser{% endif %}">
   {% if link.image or link.video or link.conference_short %}
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.video %}
